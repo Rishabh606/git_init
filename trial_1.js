@@ -4,12 +4,14 @@
 //console.log("Hey man").
 window.onload = function () {
     console.log("hey man");
-    justanything();
+    justanything("papa");
+    console.log("papa");
 };
-function justanything() {
+function justanything(el) {
     var todo = new array;
     todo.push({
         task:"done",
         key:"bored"
     });
+    todo.push(el);
 }
