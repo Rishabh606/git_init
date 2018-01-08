@@ -5,7 +5,7 @@
 window.onload = function () {
     console.log("hey man");
     justanything("papa");
-    console.log("papa");
+    console.log("mama");
 };
 function justanything(el) {
     var todo = new array;
